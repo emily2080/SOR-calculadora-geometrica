@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+    >
+    <meta charset="UTF-8">
+    <title>Quadrado</title>
+</head>
+<body>
+    <div class="m-5 row">
+        <div class="col-md-4">
+            <h1>Quadrado</h1>
+
+            <form action="/cgi-bin/quadrado.py">
+                <label for="lado">Lado:</label>
+                <input class="form-control" type="number" min="1" name="lado" id="lado" required="required">
+
+                <input class="btn btn-info mt-2" type="submit" value="Enviar">
+                <a class="btn btn-danger mt-2" href="../">Voltar</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
